@@ -170,7 +170,7 @@ function Auth() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const { username, password, phoneNumber, avatarURL } = form;
-    const URL = "http://localhost:5000/auth";
+    const URL = "https://jarvis-r7ru.onrender.com/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName },
